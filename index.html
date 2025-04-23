@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Zombies & Katter - StarWars Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="spacer"></div> 
+  <h1>Zombies & Katter - StarWars Edition</h1>
+
+  <div id="game-container">
+    <img id="game-image" src="" alt="Spelbild">
+    <img id="cat-overlay" class="overlay-icon" src="images/starwars_cat.png" alt="Cat Overlay">
+    <img id="zombie-overlay" class="overlay-icon" src="images/starwars Zombie.png" alt="Zombie Overlay">
+  </div>
+
+  <div id="controls">
+    <div><button onclick="movePlayer('N')">N</button></div>
+    <div>
+      <button onclick="movePlayer('V')">V</button>
+      <button onclick="movePlayer('S')">S</button>
+      <button onclick="movePlayer('Ö')">Ö</button>
+    </div>
+  </div>
+
+  <h3>Minikarta</h3>
+  <div id="minimap"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
